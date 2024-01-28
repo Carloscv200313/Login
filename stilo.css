@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    
+}
+.fondo{
+    background-image: url("./img/fondo_03.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+.cont_login{
+    background-image: url("./img/fondo_03.jpg");
+    background-size: cover;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px ;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height:80%;
+    overflow: hidden;
+}
+.dedicatoria_01{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form{
+    width: 40%;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+}
+.monggit h1{
+    margin: 40px;
+    color: #fff;
+    font-size: 40px;
+}
+.dedicatoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.dedicatoria h1{
+    margin: 0px;
+    font-size: 50px;
+}
+.dedicatoria h2{
+    margin: 0px;
+    font-size: 25px;
+}
+.dedicatoria p{
+    text-align: center;
+    width: 50%;
+    font-size: 15px;
+}
+.form h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.usuari{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 70px;
+    background: none;
+    width: 80%;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: 0px;
+}
+.password{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    background: none;
+    width: 80%;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: 0px;
+}
+.button{
+    display: block;
+    background:rgb(7, 24, 47);
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    width: 40%;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+    color: #fff;
+}
+.registrar{
+    color: bisque;
+}
