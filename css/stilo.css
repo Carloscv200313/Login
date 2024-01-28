@@ -3,7 +3,7 @@ body {
     
 }
 .fondo{
-    background-image: url("./img/fondo_03.jpg");
+    background-image: url("/login/img/fondo_03.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@ body {
     
 }
 .cont_login{
-    background-image: url("./img/fondo_03.jpg");
+    background-image: url("/login/img/fondo_03.jpg");
     background-size: cover;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
     border-radius: 20px ;
