@@ -8,7 +8,7 @@ img{
     object-fit: cover;
 }
 .fondo{
-    background-image: url("https://8e4901c9.login01-ehq.pages.dev/img/fondo_03.jpg");
+    background-image: url("./img/fondo_03.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@ img{
     
 }
 .cont_login{
-    background-image: url("https://8e4901c9.login01-ehq.pages.dev/img/fondo_03.jpg");
+    background-image: url("./img/fondo_03.jpg");
     background-size: cover;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
     border-radius: 20px ;
