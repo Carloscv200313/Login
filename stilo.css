@@ -125,7 +125,7 @@ img{
         display: flex;
         flex-direction: column;
         width: 70%;
-        height:60%;
+        height:80%;
         overflow: hidden;
     }
     .dedicatoria_01{
@@ -169,4 +169,47 @@ img{
         padding: 0px;
         font-size: 0px;
     }
+    
+.form h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.usuari{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 70px;
+    background: none;
+    width: 80%;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: 0px;
+}
+.password{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    background: none;
+    width: 80%;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: 0px;
+}
+.button{
+    display: block;
+    background:rgb(7, 24, 47);
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    width: 40%;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 25px;
+    color: #fff;
+}
 }
