@@ -112,3 +112,57 @@ img{
 .registrar{
     color: bisque;
 }
+@media (min-width: 320px)and (max-width:425px) {
+    .cont_login{
+        background-image: url("./img/fondo_03.jpg");
+        background-size: cover;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 20px ;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height:80%;
+        overflow: hidden;
+    }
+    .dedicatoria_01{
+        padding: 0;
+        margin: 0;
+        width: 0;
+        height: 0;
+    }
+    .form{
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(10px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        color: #fff;
+    }
+    .monggit h1{
+        margin: 0px;
+        padding: 0px;
+        font-size: 0px;
+    }
+    .dedicatoria{
+        margin: 0px;
+        padding: 0px;
+        font-size: 0px;
+    }
+    .dedicatoria h1{
+        margin: 0px;
+        padding: 0px;
+        font-size: 0px;
+    }
+    .dedicatoria h2{
+        margin: 0px;
+        padding: 0px;
+        font-size: 0px;
+    }
+    .dedicatoria p{
+        margin: 0px;
+        padding: 0px;
+        font-size: 0px;
+    }
+}
