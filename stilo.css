@@ -115,7 +115,7 @@ img{
     .fondo{
         background-image: url("./img/fondo_03.jpg");
         width: 100%;
-        height: auto;
+        height: 100svh;
     }
     .cont_login{
         background-image: url("./img/fondo_03.jpg");
