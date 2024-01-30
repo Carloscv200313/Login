@@ -114,6 +114,8 @@ img{
 @media (min-width: 320px)and (max-width:425px) {
     .fondo{
         background-image: url("./img/fondo_03.jpg");
+        width: 100%;
+        height: auto;
     }
     .cont_login{
         background-image: url("./img/fondo_03.jpg");
